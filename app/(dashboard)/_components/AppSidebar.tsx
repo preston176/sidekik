@@ -55,10 +55,15 @@ export function AppSidebar() {
                 </div>
             </SidebarHeader>
             <SidebarContent>
-                <SidebarGroup />
+                <SidebarGroup className="p-3">
+                    {/* <h2 className="font-bold text-lg">Chat</h2> */}
+                    {/* <p className="text-sm text-gray-400">Sign in to start chatting with multiple AI models</p> */}
+                </SidebarGroup>
                 <SidebarGroup />
             </SidebarContent>
-            <SidebarFooter />
+            <SidebarFooter>
+
+            </SidebarFooter>
         </Sidebar>
     )
 }
