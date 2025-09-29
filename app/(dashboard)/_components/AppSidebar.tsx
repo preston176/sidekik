@@ -17,7 +17,7 @@ export function AppSidebar() {
     return (
         <Sidebar>
             <SidebarHeader>
-                <div className="p-3">
+                <div className="p-3 flex justify-between items-center">
                     <div className="flex items-center gap-3">
                         <Image src={"/logo.png"} alt="Sidekik Logo" width={60} height={60} className="w-[40px] h-[40px]" />
                         <h2 className="font-bold text-xl">Side<span>kik</span></h2>
