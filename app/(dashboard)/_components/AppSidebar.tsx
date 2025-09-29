@@ -30,11 +30,11 @@ import Image from "next/image"
 
 // ✅ Config for main navigation
 const mainMenu = [
-    { label: "Projects", icon: Home },
-    { label: "Shared", icon: Users },
-    { label: "Templates", icon: Grid },
-    { label: "Trash", icon: Trash2 },
-    { label: "Settings", icon: Settings },
+    { label: "Projects", icon: Home, variant: "default" },
+    { label: "Shared", icon: Users, variant: "default" },
+    { label: "Prompt Templates", icon: Grid, variant: "default" },
+    { label: "Trash", icon: Trash2, variant: "destructive" },
+    { label: "Settings", icon: Settings, variant: "default" },
 ]
 
 // ✅ Recently opened items
