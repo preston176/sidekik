@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Mic, Paperclip, Send } from 'lucide-react'
 import React, { useState, useEffect, useRef } from 'react'
+import AIMultiModels from './AIMultiModels'
 
 function ChatInputBox() {
     const [value, setValue] = useState('')
@@ -46,7 +47,11 @@ function ChatInputBox() {
     }, [value, focused, suggestions.length])
 
     return (
-        <div className="relative">
+        <div className="relative min-h-screen">
+            {/* Contents of the page */}
+            <div>
+                <AIMultiModels />
+            </div>
             {/* Chat input section fixed to bottom */}
             <div className="fixed bottom-0 left-0 w-full flex justify-center px-4 pb-6">
                 <form onSubmit={handleSubmit} className="w-full max-w-2xl">
