@@ -138,7 +138,7 @@ export function AppSidebar() {
                 {/* Upgrade Box */}
                 <SidebarGroup className="p-3">
                     <div className="rounded-md bg-gradient-to-b from-muted/80 to-muted/60 p-4 text-sm">
-                        <h3 className="font-semibold">Get SideKik Pro</h3>
+                        <h2 className="font-semibold">Get SideKik Pro</h2>
                         <p className="text-xs mt-1 text-muted-foreground">
                             More Chat History + Access to more models
                         </p>
