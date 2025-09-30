@@ -66,7 +66,7 @@ function ChatInputBox() {
                             aria-label="Chat input"
                         />
 
-                        <Button type="button" variant="ghost"  size="icon" aria-label="Attach file">
+                        <Button type="button" variant="ghost" size="icon" aria-label="Attach file">
                             <Paperclip className="size-5" />
                         </Button>
 
