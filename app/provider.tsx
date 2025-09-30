@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react'
 import { ThemeProvider } from 'next-themes'
 import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
 import { AppSidebar } from './(dashboard)/_components/AppSidebar'
+import AppHeader from './(dashboard)/_components/AppHeader'
 
 
 
@@ -19,8 +20,10 @@ function Provider({ children, ...props }: {
         >
             <SidebarProvider>
                 <AppSidebar />
-                <SidebarTrigger />
-                <SidebarInset>
+
+
+                <SidebarInset className='w-full'>
+                    <AppHeader />
                     <div>{children}</div>
                 </SidebarInset>
             </SidebarProvider>
